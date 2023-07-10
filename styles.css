@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+.head{
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+.flower{
+    display: flex;
+    justify-content: space-around;
+   
+    gap: 40px;
+}
+.flower1{
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.ftitle{
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+
+}
+.img1{
+    width: 435px;
+height: 620px;
+padding: 70px 200px 0px 0px;
+}
+.ftext{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 28px 10px 25px 0px;
+}
+.btn{
+    
+padding: 12px 24px;
+
+gap: 10px;
+color: rgb(245, 245, 245);
+border-radius: 7px;
+border: #E55473;
+background: #E55473;
+}
