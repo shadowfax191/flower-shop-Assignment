@@ -99,7 +99,7 @@
     height: 300px;
     padding: 100px 35px 50px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: #0597A026;
 }
 
 .f3 {
@@ -107,7 +107,7 @@
     height: 350px;
     padding: 100px 35px 0px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: #477D1126;
 
 }
 
@@ -148,10 +148,10 @@ font-family: Lato;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
-padding: 24px 0 40px;
+padding: 20px 0 30px;
 }
 .fpic{
-    margin: 20px 200px 120px;
+    margin: 20px 200px 120px ;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -161,4 +161,46 @@ padding: 24px 0 40px;
     width: 280px;
 height: 296px;
 flex-shrink: 0;
+}
+.coupon{
+    margin: 10px 200px 100px;
+    border-radius: 8px;
+    padding: 110px 287px;
+background: url(image/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat ;
+background-size: cover;
+text-align: center;
+}
+.email input{
+    display: block;
+    width: 500px;
+    height: 44px;
+    border: 0;
+border-radius: 8px;
+background: #FFF;
+}
+.last{
+    display: flex;
+    gap: 10px;
+}
+footer{
+    background: #111010;
+    color: #ffffff;
+    padding-top: 1px;
+}
+.des2{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+padding: 15px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.cr{
+    color: rgba(255, 255, 255, 0.40);
+    padding-top: 15px;
+    padding-bottom: 50px;
+text-align: center;
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
 }
