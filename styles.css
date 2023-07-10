@@ -60,13 +60,40 @@ padding: 24px 500px 48px 500px;
 }
 .fcolor{
     color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
+    text-align: center;
+  padding-top: 30px ;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-bottom: 120px;
 }
 .tflower{
     display: flex;
     justify-content: space-between;
-    padding: 48px 200px 100px 200px;
+    padding: 40px 200px 100px 200px;
+    gap: 10px;
+    
+}
+.f1{
+    width: 310px;
+height: 350px;
+padding: 100px 35px 0px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.f2{
+    width: 310px;
+height: 300px;
+padding: 100px 35px 50px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.f3{
+    width: 310px;
+height: 350px;
+padding: 100px 35px 0px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
 }
