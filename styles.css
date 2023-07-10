@@ -1,99 +1,164 @@
-*{
+* {
     margin: 0px;
 }
-.head{
+
+.head {
     background: rgba(229, 84, 115, 0.10);
-    
+
 }
-.flower{
+
+.flower {
     display: flex;
     justify-content: space-around;
-   
+
     gap: 70px;
 }
-.flower1{
+
+.flower1 {
     padding-top: 150px;
     padding-left: 200px;
 }
-.ftitle{
+
+.ftitle {
     color: #272727;
-font-size: 80px;
-font-weight: 800;
+    font-size: 80px;
+    font-weight: 800;
 
 }
-.img1{
+
+.img1 {
     width: 435px;
-height: 620px;
-padding: 70px 200px 0px 0px;
+    height: 620px;
+    padding: 70px 200px 0px 0px;
 }
-.ftext{
+
+.ftext {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding: 28px 10px 25px 0px;
-}
-.btn{
-    
-padding: 12px 24px;
-
-gap: 10px;
-color: rgb(245, 245, 245);
-border-radius: 7px;
-border: #E55473;
-background: #E55473;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 28px 10px 25px 0px;
 }
 
-.htitle{
+.btn {
+
+    padding: 12px 24px;
+
+    gap: 10px;
+    color: rgb(245, 245, 245);
+    border-radius: 7px;
+    border: #E55473;
+    background: #E55473;
+}
+
+.htitle {
     margin-top: 120px;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.des{
+
+.des {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding: 24px 500px 48px 500px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 48px ;
 }
-.fcolor{
+
+.fcolor {
     color: #272727;
     text-align: center;
-  padding-top: 30px ;
+    padding-top: 30px;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
     padding-bottom: 120px;
 }
-.tflower{
+
+.tflower {
     display: flex;
     justify-content: space-between;
     padding: 40px 200px 100px 200px;
     gap: 10px;
+
+}
+
+.f1 {
+    width: 310px;
+    height: 350px;
+    padding: 100px 35px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.f2 {
+    width: 310px;
+    height: 300px;
+    padding: 100px 35px 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.f3 {
+    width: 310px;
+    height: 350px;
+    padding: 100px 35px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0px 200px 128px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+}
+
+.span {
+    color: #E55473;
+}
+
+.deal {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    padding: 50px 200px 50px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 186px;
+    align-items: center;
+}
+.htitle1{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.des1{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 24px 0 40px;
+}
+.fpic{
+    margin: 20px 200px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
     
 }
-.f1{
-    width: 310px;
-height: 350px;
-padding: 100px 35px 0px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-}
-.f2{
-    width: 310px;
-height: 300px;
-padding: 100px 35px 50px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-}
-.f3{
-    width: 310px;
-height: 350px;
-padding: 100px 35px 0px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-
+.fp{
+    width: 280px;
+height: 296px;
+flex-shrink: 0;
 }
