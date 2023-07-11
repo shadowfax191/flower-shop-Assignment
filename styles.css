@@ -201,3 +201,14 @@ font-family: Lato;
 font-size: 15px;
 font-weight: 400;
 }
+.mysection{
+    display: flex;
+    margin: 20px 200px 150px;
+    justify-content: space-between;
+    gap: 50px;
+}
+.newp{
+    width: 450px;
+height: 420px;
+border-radius: 10px;
+}
